@@ -14,3 +14,13 @@ py ./app.py
 客户端与服务端采用```POST```方法连接。
 
 API请求地址:```http://127.0.0.1:10000/api/ocr```
+
+| Content-Type        | Key   | Value |
+| ------------------- | ----- | ----- |
+| multipart/form-data | image | URL   |
+
+## 示例
+
+| Content-Type        | Key   | Value                                                        |
+| ------------------- | ----- | ------------------------------------------------------------ |
+| multipart/form-data | image | https://cnocr.readthedocs.io/zh/latest/examples/multi-line_cn1.png |
